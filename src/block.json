@@ -1,0 +1,49 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "carlansell94/donate-links",
+	"version": "0.1.0",
+	"title": "Donate Links",
+	"category": "widgets",
+	"icon": "money",
+	"description": "Add a donate block to your site. Includes styles for Ko-Fi, Patreon and PayPal.",
+	"attributes": {
+		"donations": {
+			"type": "array",
+			"default": [],
+			"items": {
+				"type": "object",
+				"properties": {
+					"type": {
+						"type": "string"
+					},
+					"text": {
+						"type": "string"
+					},
+					"url": {
+						"type": "string"
+					}
+				}
+			}
+		},
+		"logoDisplay": {
+			"type": "boolean",
+			"default": true
+		},
+		"donateText": {
+			"type": "string",
+			"default": "Consider donating to support the site."
+		},
+		"background": {
+			"type": "string",
+			"default": "linear-gradient(0deg,rgb(95,114,189) 0%,rgb(155,35,234) 100%)"
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "qb-donate",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

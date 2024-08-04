@@ -1,0 +1,79 @@
+// SPDX-FileCopyrightText: © 2024 Carl Ansell <github@carlansell.co.uk>
+// SPDX-License-Identifier: GPL-3.0-or-later
+
+.wp-block-carlansell94-donate-links {
+	background-color: #fafafa;
+	padding: 1rem;
+}
+
+.wp-block-carlansell94-donate-links > div {
+	padding: 0.5rem 0;
+}
+
+.wp-block-carlansell94-donate-links > .donate-link-add {
+	background-color: #f0f0f0;
+	padding: 1rem;
+}
+
+.donation-delete > button {
+	background-color: #f00;
+	color: #fff;
+	border-radius: 0.25rem;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	font-weight: 600;
+}
+
+.wp-block-carlansell94-donate-links > .donate-link-add > button {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.wp-block-carlansell94-donate-links > .donate-link-add > * {
+	margin: 0.5rem 0;
+}
+
+.wp-block-carlansell94-donate-links .existing-donations {
+	display: grid;
+	grid-template-columns: 1fr 1.5rem;
+	padding: 0.25rem 0.5rem;
+	background-color: #f4f4f4;
+	gap: 2rem;
+	align-items: center;
+}
+
+#empty-donations {
+	text-align: center;
+	font-size: 0.8rem;
+	margin: 0;
+}
+
+.wp-block-carlansell94-donate-links .existing-donations > div > p {
+	margin: 0;
+}
+
+.wp-block-carlansell94-donate-links .existing-donations .donation-type {
+	font-size: 0.9rem;
+	font-weight: 600;
+}
+
+.wp-block-carlansell94-donate-links .existing-donations .donation-url {
+	font-size: 0.8rem;
+	word-break: break-all;
+}
+
+.wp-block-carlansell94-donate-links .existing-donations .donation-delete {
+	height: 1.5rem;
+}
+
+.labels {
+	font-size: 11px;
+	font-weight: 500;
+	line-height: 1.4;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-bottom: calc(8px);
+	padding: 0;
+}

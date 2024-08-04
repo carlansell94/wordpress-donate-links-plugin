@@ -1,0 +1,63 @@
+// SPDX-FileCopyrightText: © 2024 Carl Ansell <github@carlansell.co.uk>
+// SPDX-License-Identifier: GPL-3.0-or-later
+
+.qb-donate {
+	width: 100%;
+	border-radius: 1rem;
+	display: flex;
+	align-items: center;
+	padding: 1rem 0;
+	flex-direction: column;
+	margin-top: 3rem;
+}
+
+.qb-donate > img {
+	max-width: 25%;
+	border: 3px solid #444;
+	border-radius: 1rem;
+	position: relative;
+	top: -2.5rem;
+	box-shadow: 0 2px 4px rgb(0 0 0 / 20%);
+}
+
+.qb-donate > p {
+	position: relative;
+	text-align: center;
+	top: -1.5rem;
+	margin: 0;
+	padding: 0 0.5rem;
+	color: #fff;
+}
+
+.qb-donate > a {
+	border: 0;
+	border-radius: 0.5rem;
+	box-shadow: 1px 1px 0 rgb(0 0 0 / 20%);
+	color: #fff;
+	margin: 0.25rem 0;
+	padding: 1rem;
+	text-align: center;
+	width: clamp(80px, calc(100% - 3rem), 150px);
+}
+
+.qb-donate > a:hover {
+	filter: brightness(0.85);
+}
+
+.qb-donate > a.buymeacoffee {
+	background-color: #fd0;
+	color: #000;
+}
+
+.qb-donate > a.ko-fi {
+	background-color: #ff5e5e;
+}
+
+.qb-donate > a.patreon {
+	background-color: #f76859;
+}
+
+.qb-donate > a.paypal {
+	background-color: #003087;
+}
+
